@@ -22,7 +22,7 @@ function sohcondo_config(){
 
 	add_theme_support( 'custom-logo', array(
 		'height' => 44.47,
-		'width'  => 98.19,
+		'width'  => 121.00,
 	) );
 
 	register_nav_menus(
