@@ -102,6 +102,9 @@
 .top30{
   margin-top: 30px;
 }
+.top80{
+  margin-top: 80px;
+}
 .bottom10{
   margin-bottom: 10px;
 }
@@ -177,6 +180,9 @@
   opacity: 0.62;
   border-radius: 7px;
   padding: 30px 0px 30px 0px
+}
+.title{
+	font-family: Roboto-medium;
 }
 .title-section{
   font-family: Roboto-medium;
@@ -272,6 +278,7 @@
 	list-style: none;
 	line-height: 80px;
 	text-align: center;
+	white-space: nowrap !important;
 }
 
 .navbar ul li a{
@@ -283,7 +290,7 @@
 	font-weight: bold;
 	font-size: 14px;
 	color: #0e5b85;
-	padding:0px 30px 0px 30px !important;
+	padding:0px 20px 0px 20px !important;
 }
 .navbar ul li a:hover{
 	background-color: #0e5b85 !important;
@@ -308,6 +315,7 @@
 	list-style: none;
 	line-height: 80px;
 	text-align: center;
+	white-space: nowrap !important;
 }
 .bot-menu ul li a{
 	display: block;
@@ -318,7 +326,7 @@
 	font-weight: bold;
 	font-size: 10px;
 	color: #ffffff;
-	padding:0px 30px 0px 30px !important;
+	padding:0px 20px 0px 20px !important;
 }
 
 .bot-menu ul li a:hover{

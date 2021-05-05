@@ -5,7 +5,7 @@
 <section class="container top80">
   <div class="row">
     <div class="col-12 font1 font-blue text-center title">
-      Blog
+      Contato
     </div>
   </div>
 </section>

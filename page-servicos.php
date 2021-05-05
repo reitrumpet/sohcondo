@@ -1,14 +1,20 @@
-<div class="row bottom30">
-  <div class="title-section text-center font1 font-blue">
-    Blog
+<?php
+  get_header();
+  $template_directory = get_template_directory_uri();
+?>
+<section class="container top80">
+  <div class="row bottom15">
+    <div class="col-12 font1 font-blue text-center title">
+      Serviços
+    </div>
   </div>
-</div>
-<div class="row bottom30">
+  <div class="row bottom30">
+
     <!-- Início card -->
     <?php
-    	if(have_posts()):
-        query_posts( array('category_name'  => 'blog', 'posts_per_page' => 3 ) );
-    		while(have_posts()):the_post();
+      if(have_posts()):
+        query_posts( array('category_name'  => 'servicos', 'posts_per_page' => 3 ) );
+        while(have_posts()):the_post();
     ?>
     <div class="card col-xl-4 col-lg-4 col-md-12 col-sm-12">
       <?php
@@ -18,7 +24,8 @@
       <?php endif; ?>
       <div class="card-body text-center font-blue">
         <h5 class="card-title font3"><?php the_title(); ?></h5>
-        <p class="card-text font2"><?php echo get_field('subtitulo'); ?></p>
+        <h6><?php echo get_field('parceiro'); ?></h6>
+        <p class="card-text font2"><?php the_content(); ?></p>
 
       </div>
       <div class="text-center bottom10">
@@ -27,20 +34,12 @@
     </div>
     <?php
         endwhile;
-    	else:
+      else:
     ?>
     <p>Nenhum post cadastrado !</p>
     <?php endif; ?>
     <!-- Fim card -->
-</div>
-<div class="row">
-  <div class="col-4">
-    &nbsp;
+
   </div>
-  <div class="col-4 text-center">
-    <button type="button" class="btn btn-primary btn-blue z1">MAIS POSTS</button>
-  </div>
-  <div class="col-4">
-    &nbsp;
-  </div>
-</div>
+</section>
+<?php get_footer(); ?>
