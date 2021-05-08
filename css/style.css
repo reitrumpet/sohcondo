@@ -181,6 +181,9 @@
   border-radius: 7px;
   padding: 30px 0px 30px 0px
 }
+.justify{
+	text-align: justify;
+}
 .title{
 	font-family: Roboto-medium;
 }
@@ -332,4 +335,46 @@
 .bot-menu ul li a:hover{
 
 	border-top: 1px solid #ffffff;
+}
+
+.input-name{
+	border: none !important;
+  background: none !important;
+  border-bottom: solid 1px !important;
+}
+.input-name:focus{
+	outline: none !important;
+	background-color: #fbfbfb;
+}
+.input-email{
+	border: none !important;
+	background: none !important;
+	border-bottom: solid 1px !important;
+}
+.input-email:focus{
+	outline: none !important;
+}
+.input-phone{
+	border: none !important;
+  background: none !important;
+  border-bottom: solid 1px !important;
+}
+.input-phone:focus{
+	outline: none !important;
+}
+.input-subject{
+	border: none !important;
+  background: none !important;
+  border-bottom: solid 1px !important;
+}
+.input-subject:focus{
+	outline: none !important;
+}
+.input-message{
+	border: none !important;
+  background: none !important;
+  border-bottom: solid 1px !important;
+}
+.input-message:focus{
+	outline: none !important;
 }

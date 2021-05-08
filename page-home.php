@@ -66,11 +66,8 @@
       </div>
       <div class="col align-self-center text-center">
         <div class="row">
-          <div class="top10 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <button type="button" class="btn btn-primary btn-blue">TRAGA A SUA COTAÇÃO</button>
-          </div>
-          <div class="top10 col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <button type="button" class="btn btn-primary btn-blue">FAÇA A SUA COTAÇÃO</button>
+          <div class="top10">
+            <a href="seguros" class="btn btn-primary btn-blue">FAÇA OU TRAGA A SUA COTAÇÃO</a>
           </div>
         </div>
       </div>

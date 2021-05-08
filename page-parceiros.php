@@ -9,8 +9,6 @@
     </div>
   </div>
   <div class="row">
-
-
     <?php
     	if(have_posts()):
         query_posts( array('category_name'  => 'parceiros', 'posts_per_page' => 6 ) );
@@ -23,7 +21,7 @@
           <?php the_title(); ?>
         </div>
         <div class="row font2 font-blue description-service bottom15">
-          <?php the_content(); ?>
+          <?php echo get_field('resumo'); ?>
         </div>
         <div class="row">
           <a href="<?php the_permalink(); ?>" class="btn btn-primary btn-green">SAIBA MAIS</a>
@@ -32,7 +30,7 @@
       <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
         &nbsp;
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 text-center">
+      <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 d-flex align-items-center">
         <?php
         $image = get_field('imagem');
         if( !empty( $image ) ): ?>

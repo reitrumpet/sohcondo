@@ -8,5 +8,39 @@
       Seguros
     </div>
   </div>
+
+  <div class="row">
+    <?php
+    	if(have_posts()):
+        query_posts( array('category_name'  => 'seguros', 'posts_per_page' => 6 ) );
+    		while(have_posts()):the_post();
+    ?>
+
+    <div class="row bottom30">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+        <div class="font3 font-blue title-service bottom10">
+          <?php the_title(); ?>
+        </div>
+        <div class="row font2 font-blue description-service bottom15">
+          <?php the_content(); ?>
+        </div>
+
+      </div>
+    </div>
+
+    <?php
+        endwhile;
+    	else:
+    ?>
+    <p>Nenhum seguro cadastrado !</p>
+    <?php endif; ?>
+
+
+  </div>
+
+  <div class="form-security">
+    <?php echo do_shortcode('[contact-form-7 id="132" title="Contato Seguros"]'); ?>
+  </div>
+
 </section>
 <?php get_footer(); ?>
