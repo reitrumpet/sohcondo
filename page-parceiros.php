@@ -34,7 +34,7 @@
         <?php
         $image = get_field('imagem');
         if( !empty( $image ) ): ?>
-            <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" width="436" height="204"/>
+            <img class="rounded mx-auto d-block" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" width="436" height="204"/>
         <?php endif; ?>
       </div>
 

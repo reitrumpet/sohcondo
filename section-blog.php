@@ -38,7 +38,7 @@
     &nbsp;
   </div>
   <div class="col-4 text-center">
-    <button type="button" class="btn btn-primary btn-blue z1">MAIS POSTS</button>
+    <a href="blog" class="btn btn-primary btn-blue">MAIS POSTS</a>
   </div>
   <div class="col-4">
     &nbsp;

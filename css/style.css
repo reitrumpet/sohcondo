@@ -60,6 +60,7 @@
 .font-blue{
   color: #0e5b85;
 }
+.bold{font-weight: bold;}
 .white{
   background-color: #ffffff;
 }
@@ -377,4 +378,11 @@
 }
 .input-message:focus{
 	outline: none !important;
+}
+
+/* Gallery */
+
+.gallery{
+
+
 }
