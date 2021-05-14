@@ -42,5 +42,12 @@
     <?php echo do_shortcode('[contact-form-7 id="132" title="Contato Seguros"]'); ?>
   </div>
 
+  <div class="row text-center">
+    <h4>OU</h4>
+  </div>
+  <div class="row text-center font4 bottom30">
+    <a href="https://api.whatsapp.com/send?phone=5582991844222&text=Tenho%20interesse%20em%20um%20seguro%20para%20meu%20im%C3%B3vel." target="_blank" class="btn btn-primary btn-blue"><i class="fab fa-whatsapp font-white"> Fale Conosco</i></a>
+  </div>
+
 </section>
 <?php get_footer(); ?>

@@ -380,9 +380,7 @@
 	outline: none !important;
 }
 
-/* Gallery */
-
-.gallery{
-
-
+/* Depoimentos */
+.resetActive{
+	background-color: transparent !important;
 }

@@ -8,7 +8,7 @@
         &nbsp;
       </div>
       <div class="col-4">
-        <button type="button" class="btn btn-primary btn-blue z1">VOLTAR AO TOPO</button>
+        <a href="#top" type="button" class="btn btn-primary btn-blue z1">VOLTAR AO TOPO</a>
       </div>
     </div>
     <div class="row bottom10">
@@ -41,16 +41,16 @@
           &nbsp;
         </div>
           <div class="col-1 text-center font4 social font-white">
-            <a href="#"><i class="fab fa-facebook-f font-white"></i></a>
+            <a target="_blank" href="https://www.facebook.com/SohCondo-100792868823064"><i class="fab fa-facebook-f font-white"></i></a>
           </div>
           <div class="col-1 text-center font4 social font-white">
-            <a href="#"><i class="fab fa-instagram font-white"></i></a>
+            <a target="_blank" href="https://www.instagram.com/sohcondo/"><i class="fab fa-instagram font-white"></i></a>
           </div>
           <div class="col-1 text-center font4 social font-white">
-            <a href="#"><i class="fab fa-linkedin-in font-white"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/company/sohcondo/"><i class="fab fa-linkedin-in font-white"></i></a>
           </div>
           <div class="col-1 text-center font4 social font-white">
-            <a href="#"><i class="fab fa-whatsapp font-white"></i></a>
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5582991844222&text=Gostaria%20de%20um%20contato."><i class="fab fa-whatsapp font-white"></i></a>
           </div>
         <div class="col-4">
           &nbsp;
@@ -74,5 +74,6 @@
     </div>
   </div>
 </section>
+<!-- <script src="//code-sa1.jivosite.com/widget/7vgEXriDfg" async></script> -->
   </body>
 </html>

@@ -9,6 +9,8 @@
 
 			if($nameCategory == "Classificados"){
 				get_template_part( 'template-parts/content-classificados', 'single' );
+			}elseif ($nameCategory == "Serviços") {
+				get_template_part( 'template-parts/content-servicos', 'single' );
 			}else{
 				get_template_part( 'template-parts/content', 'single' );
 			}

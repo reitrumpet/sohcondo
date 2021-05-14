@@ -99,6 +99,9 @@
 	          </h5>
 	        </div>
 				</div>
+				<div class="row text-center font4 ">
+	        <a href="https://api.whatsapp.com/send?phone=55<?php echo get_field('contato');?>&text=Tenho%20interesse%20no%20<?php the_title(); ?>" target="_blank" class="btn btn-primary btn-blue"><i class="fab fa-whatsapp font-white"> Fale Conosco</i></a>
+	      </div>
       </div>
 
   	<?php endif; ?>

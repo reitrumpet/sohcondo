@@ -5,5 +5,6 @@
     <title>SohCondo - O MarketPlace para seu condomínio e residência</title>
     <?php wp_head(); ?>
   </head>
-  <body class="snow z-1" <?php body_class();?>>
+  <body class="snow z-1" <?php body_class();?> id="top">
+
     <?php include('top-bar.php'); ?>

@@ -4,11 +4,13 @@
       Depoimentos
     </div>
   </div>
+
   <?php
     if(have_posts()):
-      query_posts( array('category_name'  => 'depoimentos', 'posts_per_page' => 1 ) );
+      query_posts( array('category_name'  => 'depoimentos', 'posts_per_page' => 3 ) );
       while(have_posts()):the_post();
   ?>
+
   <div class="row card-testimony bottom30">
     <div class="col-12 text-center">
       <?php
@@ -24,21 +26,26 @@
       <?php the_title(); ?>
     </div>
   </div>
+
+
   <?php
       endwhile;
     else:
   ?>
   <p>Nenhum depoimento cadastrado !</p>
   <?php endif; ?>
-  <div class="row">
+
+
+  <!-- <div class="row">
     <div class="col-4">
       &nbsp;
     </div>
     <div class="col-4 text-center">
-      <button type="button" class="btn btn-primary btn-blue z1">MAIS DEPOIMENTOS</button>
+      <a href="depoimentos" class="btn btn-primary btn-blue">MAIS DEPOIMENTOS</a>
     </div>
     <div class="col-4">
       &nbsp;
     </div>
-  </div>
+  </div> -->
+
 </div>
