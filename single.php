@@ -11,6 +11,8 @@
 				get_template_part( 'template-parts/content-classificados', 'single' );
 			}elseif ($nameCategory == "Serviços") {
 				get_template_part( 'template-parts/content-servicos', 'single' );
+			}elseif ($nameCategory == "Parceiros") {
+				get_template_part( 'template-parts/content-parceiros', 'single' );
 			}else{
 				get_template_part( 'template-parts/content', 'single' );
 			}

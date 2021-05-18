@@ -48,7 +48,7 @@
 
           <div class="col align-self-center text-center font1 bgWhite">
             <div class="font-blue">
-              SEGURO RESIDÊNCIAL
+              SEGURO RESIDENCIAL
               <div class="font3">
                 FAÇA SUA COTAÇÃO OU TRAGA OUTRAS COTAÇÕES
               </div>
