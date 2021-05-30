@@ -47,7 +47,7 @@
 	src: url(fonts/Roboto/Roboto-ThinItalic.ttf)
 }
 
-
+.floatLeft{float: left;}
 .z1{
   z-index: 1;
 }
