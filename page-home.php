@@ -84,7 +84,7 @@
   <?php include("section-blog.php"); ?>
 </section>
 <section class="white bottom30">
-  <?php include("section-testimony.php"); ?>
+  <?php //include("section-testimony.php"); ?>
 </section>
 
 <?php get_footer(); ?>
